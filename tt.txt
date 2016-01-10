@@ -1,0 +1,6 @@
+application/controllers/home.php:class home extends Controller {
+application/controllers/user.php:		($this->isLoggedIn()) ? $this->redirect('home') : $this->view('user/login', array('errMsg' => $errMsg));
+application/controllers/user.php:					(isset($_SESSION['refererUrl'])) ? $this->absoluteRedirect($_SESSION['refererUrl']) : $this->redirect('home');
+application/models/userModel.php:		$refererURL = preg_replace('/\/user.*/', '/home', $refererURL);
+application/models/userModel.php:		$refererURL = preg_replace('/\/error.*/', '/home', $refererURL);
+application/core/App.php:			// If url does not have any parameters, then it is assumed that it will be the home page and hence 'Home' is returned 

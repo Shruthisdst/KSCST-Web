@@ -363,12 +363,71 @@
 	<li>Police information system</li>
 	<li>District resource and infrastructure profiles etc.</li>
 </ul>
+<h4>End User Interactions:</h4>
+<p>In each district there are several line departments, which are responsible for implementing the various schemes and programmes of the State and Central Government. These departments come under the direct control of Zilla Panchayath and the Deputy Commissioner office. The planning is done at the Zilla Panchayath level and also in some cases Deputy Commissioners level. Lot of information is required in planning an activity. Hence the NRDMS district centers are assisting the planning and executing bodies in providing these information and also help them in preparing their plans using GIS based technology. In this connection several workshops and training programmes have organized by the NRDMS centers to create an awareness of GIS technologies. The Council conducted user level workshops in all the districts of the State in the year 2007 - 08 to create awareness among end users in the utilisation of geospatial technologies in planning.</p>
 <div class="row gap-above gap-below-large">
-    <div class="col-md-4 journal-desc-card">
+    <div class="col-md-6 journal-desc-card">
         <p class="title">Technical Report</p>
         <a target="_blank" href="<?=RESOURCES_URL?>nrdms_technical_report_sep2014.pdf" title="September 2014"><img class="img-border" src="<?=PUBLIC_URL?>images/stock/nrdms_technical_report.jpg" alt="September 2014"></a>
         <p class="current"><a target="_blank" href="<?=RESOURCES_URL?>nrdms_technical_report_sep2014.pdf">September 2014</a></p>
     </div>
+    <div class="col-md-6 journal-desc-card">
+        <p class="title">Divisional Level Training Program</p>
+        <a target="_blank" href="<?=RESOURCES_URL?>divisional_level_training.pdf" title=""><img class="img-border" src="<?=PUBLIC_URL?>images/stock/divisional_level_training.jpg" alt="Divisional Level Training Program"></a>
+        <p class="current"><a target="_blank" href="<?=RESOURCES_URL?>divisional_level_training.pdf">On<br />"Application of Remote Sensing and GIS for Governance"</a></p>
+    </div>
 </div>
-<h4>End User Interactions:</h4>
-<p>In each district there are several line departments, which are responsible for implementing the various schemes and programmes of the State and Central Government. These departments come under the direct control of Zilla Panchayath and the Deputy Commissioner office. The planning is done at the Zilla Panchayath level and also in some cases Deputy Commissioners level. Lot of information is required in planning an activity. Hence the NRDMS district centers are assisting the planning and executing bodies in providing these information and also help them in preparing their plans using GIS based technology. In this connection several workshops and training programmes have organized by the NRDMS centers to create an awareness of GIS technologies. The Council conducted user level workshops in all the districts of the State in the year 2007 - 08 to create awareness among end users in the utilisation of geospatial technologies in planning.</p>
+<hr />
+<h3>Location of district NRDMS centres and officers responsible for those districts</h3>
+<h4>District NRDMS Employees E-mail ID's and Phone Numbers</h4><br />
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Chandrashekhar K. Gund</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Bagalkot<br />
+			Bagalkot - 587 102<br />
+			<strong>Email:</strong> chandu.gis@gmail.com<br />
+			<strong>Phone:</strong> 8722644254
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong><a href="#">D. R. Ramesh</a></strong><br />
+			<a href="Bangalore_Rural">District NRDMS Center</a><br />
+			O/o Zilla Panchayath<br />
+			Kempegowda Road<br />
+			<strong>District:</strong> Bangalore Rural<br />
+			Bangalore - 560 009<br />
+			<strong>Email:</strong> ramesh_1158@hotmail.com<br />
+			<strong>Phone:</strong> 9741011636
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong><a href="#">K. V. Shiva Kumar</a></strong><br />
+			<a href="Bengaluru_Urban">District NRDMS Center</a><br />
+			Bangalore Urban Zilla Panchayath<br />
+			S. Kariappa Road<br />
+			Banashankari<br />
+			<strong>District:</strong> Bangalore Urban<br />
+			Bangalore - 560 070<br />
+			<strong>Email:</strong> kumarkv_8@yahoo.co.in, kumarkv.1958@gmail.com<br />
+			<strong>Phone:</strong> 080-26710590, 9845985968
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Manjunath S. Totad</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Belgaum<br />
+			Belgaum - 590 002<br />
+			<strong>Email:</strong> manju_esrm@yahoo.co.in, manjustotad@gmail.com<br />
+			<strong>Phone:</strong> 9986489812
+		</p>
+	</div>
+</div>
