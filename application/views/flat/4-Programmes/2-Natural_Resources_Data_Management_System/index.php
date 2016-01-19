@@ -395,7 +395,7 @@
 	<div class="col-sm-6">
 		<p>
 			<strong><a href="#">D. R. Ramesh</a></strong><br />
-			<a href="Bangalore_Rural">District NRDMS Center</a><br />
+			<a href="Bengaluru_Rural">District NRDMS Center</a><br />
 			O/o Zilla Panchayath<br />
 			Kempegowda Road<br />
 			<strong>District:</strong> Bangalore Rural<br />
@@ -431,3 +431,335 @@
 		</p>
 	</div>
 </div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Ramachandra Reddy G. B.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath Fort<br />
+			<strong>District:</strong> Bellary<br />
+			Bellary - 583 102<br />
+			<strong>Email:</strong> ramachandragis@gmail.com
+			<strong>Phone:</strong> 9342432806
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Bapugouda S. Patil</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Bidar<br />
+			Bidar - 585 328<br />
+			<strong>Email:</strong> bapugoudapatil.gis@gmail.com<br />
+			<strong>Phone:</strong> 9964181458
+		</p>
+	</div>
+</div>
+	
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Kethan Kumar P.</strong><br />
+			District NRDMS Centre<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Bijapur<br />
+			Bijapur - 586 103<br />
+			<strong>Email:</strong> kethan26@rediffmail.com, kethangk@gmail.com
+			<strong>Phone:</strong> 9738941036
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Karthik M. S.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Chamrajnagar<br />
+			Chamrajnagar - 571 313<br />
+			<strong>Email:</strong> karthikms81@gmail.com<br />
+			<strong>Phone:</strong> 9743982370, 7899023494
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Manjula R. Chandugol</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Chikkaballapur<br />
+			Chikkaballapur - 562101<br />
+			<strong>Email:</strong> manjuchn25@gmail.com, manju.chan@rediffmail.com<br />
+			<strong>Phone:</strong> 9743223675, 8123326100
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Basavaraj Barki</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Chikkamaglur<br />
+			Chickmagalur - 577 101<br />
+			<strong>Email:</strong> barkibasu@gmail.com<br />
+			<strong>Phone:</strong> 9901769269
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Chandrashekhar T.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Chitradurga <br />
+			Chitradurga - 577 501<br />
+			<strong>Email:</strong> chandrugirish@gmail.com<br />
+			<strong>Phone:</strong> 9986640237
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Gangadharappa R.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Davangere<br />
+			Davangere - 577 005<br />
+			<strong>Email:</strong> gangumgm@gmail.com<br />
+			<strong>Phone:</strong> 9980262083
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Pratibha V. Hubballi</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Dharwad<br />
+			Dharwad - 580 008<br />
+			<strong>Email:</strong> pratimhsh@gmail.com, prati_mah@yahoo.co.in<br />
+			<strong>Phone:</strong> 9036557146
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Omkar Kori</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			Mulgund Naka<br />
+			<strong>District:</strong> Gadag<br />
+			Gadag - 582 101<br />
+			<strong>Email:</strong> okomdeepkori62@gmail.com, kori378@gmail.com<br />
+			<strong>Phone:</strong> 9591507752
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Mr. Bhimshen L. Kulkarni</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			Jagat Circle<br />
+			<strong>District:</strong> Gulbarga<br />
+			Gulbarga - 585 101<br />
+			<strong>Email:</strong> rokhadesh@gmail.com<br />
+			<strong>Phone:</strong> 7204790637, 08472-240202
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong><a href="#">Mr. H. R. Phalanetra</a></strong><br />
+			<a href="<?=RESOURCES_URL?>/Hassan_NRDMS_13_05_2011.pdf" target="_blank">District NRDMS Center</a><br />
+			O/o Zilla Panchayath<br />
+			B.M. Road<br />
+			<strong>District:</strong> Hassan<br />
+			Hassan - 573 201<br />
+			<strong>Email:</strong> netra_hrp@yahoo.co.in, netra.hrp@gmail.com<br />
+			<strong>Phone:</strong> 9448957488
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Pradeep V. Hegde</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Haveri<br />
+			Haveri - 581 110<br />
+			<strong>Email:</strong> hegde.mrsa@gmail.com<br />
+			<strong>Phone:</strong> 9916830231
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong><a href="#">Anil R. Naik</a></strong><br />
+			<a href="<?=RESOURCES_URL?>/UK_Report_09-09-2009.pdf" target="_blank">District NRDMS Center</a><br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Uttar Kannada<br />
+			Karwar - 581 301<br />
+			<strong>Email:</strong> anilrnaik@gmail.com<br />
+			<strong>Phone:</strong> 9448100413
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Niranjan Kumar R.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			DOR Building 1st Floor<br />
+			D.C. office Compound<br />
+			<strong>District:</strong> Kolar<br />
+			Kolar - 563 101<br />
+			<strong>Email:</strong> niranroshan@gmail.com<br />
+			<strong>Phone:</strong> 9986351677
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Guruswamy P.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Koppal<br />
+			Koppal - 583 231<br />
+			<strong>Email:</strong> swamy.guru1@gmail.com<br />
+			<strong>Phone:</strong> 9449792753, 8050106996
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Kiran Raj K.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			Kodagu Zilla Panchayath<br />
+			<strong>District:</strong> Madikeri<br />
+			Madikeri - 571 201<br />
+			<strong>Email:</strong> krshetty20@gmail.com<br />
+			<strong>Phone:</strong> 9731528209
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Pradeep Kumar B. M.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Mandya<br />
+			Mandya - 571 401<br />
+			<strong>Email:</strong> geopradeep@rediffmail.com<br />
+			<strong>Phone:</strong> 9341151618
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Mamatha K. S.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Dakshina Kannada<br />
+			Mangalore-575006<br />
+			<strong>Email:</strong> mamtha_avani@yahoo.com, mamtha.avani@gmail.com<br />
+			<strong>Phone:</strong> 9740550459
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Vinodha M.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Mysore<br />
+			Mysore - 570 005<br />
+			<strong>Email:</strong> vinodh.nrdms@gmail.com<br />
+			<strong>Phone:</strong> 9844942930
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Mohammad Farook Ali</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Raichur<br />
+			Raichur - 584 101<br />
+			<strong>Email:</strong> gescom_bits786@yahoo.com<br />
+			<strong>Phone:</strong> 8904220137
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>D. Akshaya</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Ramanagar<br />
+			Ramanagar - 571 511<br />
+			<strong>Email:</strong> akshayakshi8@gmail.com<br />
+			<strong>Phone:</strong> 9686983530
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Shankar P.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Shimoga<br />
+			Shimoga - 577 201<br />
+			<strong>Email:</strong> nrdms.shimoga@gmail.com<br />
+			<strong>Phone:</strong> 9980064163
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>Shruthi M. N.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Tumkur District<br />
+			Tumkur - 571 201<br />
+			<strong>Email:</strong> shruthi.meda5@gmail.com<br />
+			<strong>Phone:</strong> 9902552524
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p>
+			<strong>Vikram R.</strong><br />
+			District NRDMS Center<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Udupi<br />
+			Udupi - 576 101<br />
+			<strong>Email:</strong> vikram_06smg@yahoo.co.in<br />
+			<strong>Phone:</strong> 9481813495, 9880908516
+		</p>
+	</div>
+	<div class="col-sm-6">
+		<p>
+			<strong>R. Siddha Reddy</strong><br />
+			District NRDMS Center<br />
+			Planning Section<br />
+			Opp. Methodist Church, Court Road<br />
+			O/o Zilla Panchayath<br />
+			<strong>District:</strong> Yadgir<br />
+			Yadgir - 585 201<br />
+			<strong>Email:</strong> siddha_redd@rediffmail.com, reddysiddha33@gmail.com<br />
+			<strong>Phone:</strong> 9060644933, 9242886214
+		</p>
+	</div>
+</div>
+<h4><a href="Activities_of_District_NRDMS_Centers">Activities of District NRDMS Centers: </a></h4>
+<h3>Contact us</h3>
+<p>
+	<strong>Mr. H. Hemanth Kumar</strong><br />
+	Principal Investigator - NRDMS<br />
+	<strong>Karnataka State Council for Science and Technology</strong><br />
+	Indian Institute of Science Campus, Bangalore - 560 012<br />
+	<strong>Phone:</strong> 080 23341652, 23314396<br />
+	<strong>TeleFax:</strong> 23344880<br />
+	<strong>E-mail:</strong> <a href="mailto: hemanth@kscst.iisc.ernet.in">hemanth@kscst.iisc.ernet.in</a>
+</p>
