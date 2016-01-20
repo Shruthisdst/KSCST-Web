@@ -232,4 +232,11 @@
 		</tbody>
 	</table>
 </div>
-
+<h3>Photographs and Maps of District NRDMS Centres</h3>
+<ul>
+	<li class="gap-above-small"><a href="<?=RESOURCES_URL?>/NRDMS_Slides_01.pdf" target="_blank">NRDMS Slides 01</a></li>
+	<li class="gap-above-small"><a href="<?=RESOURCES_URL?>/NRDMS_Slides_02.pdf" target="_blank">NRDMS Slides 02</a></li>
+	<li class="gap-above-small"><a href="<?=RESOURCES_URL?>/NRDMS_Slides_03.pdf" target="_blank">NRDMS Slides 03</a></li>
+	<li class="gap-above-small"><a href="<?=RESOURCES_URL?>/NRDMS_Maps_01.pdf" target="_blank">NRDMS Maps 01</a></li>
+	<li class="gap-above-small"><a href="<?=RESOURCES_URL?>/NRDMS_Maps_02.pdf" target="_blank">NRDMS Maps 02</a></li>
+</ul>
