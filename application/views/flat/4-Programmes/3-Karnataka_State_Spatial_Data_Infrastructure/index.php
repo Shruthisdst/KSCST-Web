@@ -26,3 +26,231 @@
 <p>The available data would be catalogued and the search for availability of any particular dataset would be made available through specially customized metadata (data about the data) utility. In this architecture, KSSDI Gateway and its user interface allow a user to query distributed collections of spatial information through their metadata descriptions. This spatial information may take the form of "data" or of services available to interact with spatial data on the different data server, described with complementary forms of metadata. A user interested in locating spatial information uses a search user interface, fills out a search form, specifying queries for data with certain properties. The search request is passed to the database Server, which shall search the Metadata repository on its end. The datasets fulfilling the search criteria will be displayed to the user, on users request the same can be accessed from the Agency Server.</p>
 <p>The KSSDI Data clearing house and geo-portal would act gateway for various data generating agencies to share the information across various government departments, NGOs, academies, industries and scientific organisation. It will be a Single window system for discovery, view and access state geo-spatial data sets along with attributes. The individual departments and KSCST would be able to add and update the state geo-spatial data sets thereby providing the up-to-date spatial data dictionary and map directory for the state and facilitate decision support system and helps in local level planning. Thus, KSSDI would provide scientific approach to the decision makers, planners and administrators to facilitate common man usage of valuable Geo-spatial data. Also, the proprietary data prepared by department can also be used for the data sale and purchase, which can be part of the state revenue generation.</p>
 <p>The complete KSSDI portal is developed using the ERDAS Apollo Software, an OGC compliant with facilities to share the vector and raster datasets through WMS, WFS and WRS web services along with the solutions and products from IBM for server hardware, storage, backup and retrieval systems, CISCO for the Networking components and Oracle for RDBMS requirements, respectively.</p>
+<h3>KSSDI &ndash; Service Oriented Architecture</h3>
+<p>There are a large number of users interested in the visualisation and analysis of the data organized and maintained by different sources, without having to install the specific applications or data on their terminals. They want to be able to connect to data services in real time and create different data combinations, and ultimately publish / share the contents and services to third parties and application developers.</p>
+<p>This goal is possible with the help of Service Oriented Architecture (SOA) applied to spatial information. An SOA can be implemented with Web services. Web services consist of XML based transport protocols and open standards designed to exchange data between different applications. Software developed and written in different programming languages for different platforms can all use Web services to exchange data using the Internet and HTTP protocol. This interoperability is made possible by the use of open standards.</p>
+<p>One of the key elements of an SOA is the Service Registry: a record and description of all available services. It allows users not only to find and discover which services could be useful in providing solutions to their needs but also to integrate them into their business applications.</p>
+<p>The methodology can thus be described as follows:</p>
+<ul>
+	<li>service providers; set up Web Services;</li>
+	<li>they then publish these Web Services in the service registry : &ndash; publish</li>
+	<li>consumers / users &ndash; then discover these services by means of queries &ndash; find</li>
+	<li>and integrate them into their applications &ndash; bind</li>
+</ul>
+<p>Service Oriented Architecture, implemented by means of Web Services is particularly useful for setting up spatial data infrastructures for geographic information systems. The SDI provide the means for regulators, planning committees, managers, individuals and their organisations to discover, access and use spatial data.</p>
+<img class="img-border" src="<?=PUBLIC_URL?>images/stock/kssdi_01.jpg" alt="kssdi"></a>
+<img class="img-border" src="<?=PUBLIC_URL?>images/stock/kssdi_02.jpg" alt="kssdi"></a>
+<h3>The basic components of KSSDI are:</h3>
+<ul>
+	<li><strong>Content storage:</strong> Geographic data, i.e. Local alphanumeric data, data models and associated documentation, metadata.</li>
+	<li>Geographic data Library.</li>
+	<li><strong>Business processing services:</strong> (geo-services) for the purpose of, for example:
+		<ul>
+			<li>accessing data.</li>
+			<li>finding both data and services.</li>
+			<li>sharing toponymic indexes.</li>
+			<li>webmapping queries.</li>
+			<li>coordinate transformation services.</li>
+			<li>finding the quickest path. etc.</li>
+		</ul>
+	</li>
+</ul>
+<h3>Users of Karnataka Geoportal</h3>
+<p>In line with the SOA, the users of the KSSDI Geo Portal are classified into three main categories:</p>
+<p><strong>a) General User:</strong> Any internet user/ General public wanting to access the portal must register (sign up) online to access the map services.</p>
+<p><strong>b) Data Provider:</strong> User or representatives from the State or District level Line Departments, and District NRDMS centres participating in the data sharing with KSCST or members within KSCST itself. This user group based on the roles and privileges is sub-categorized further into two: Data Provider and Data Manager.</p>
+<ul>
+	<li class="gap-above-small"><strong>Data Provider:</strong> Will be representing their respective line departments and are authorised to make changes to the data pertaining to their department only.</li>
+	<li><strong>Data Manager:</strong> Will be a member of the KSCST staff who is authorised to perform overall data operation across all departments under the guidance of the Administrator of the KSSDI system.</li>
+</ul>
+<p><strong>c) Administrator:</strong> The administrator is considered as the super user of the system with the sole privileges to administer the complete system. They are further sub categorised as: System Administrator and Super Administrator.</p>
+<ul>
+	<li class="gap-above-small"><strong>System Administrator:</strong> who is an authorised KSCST staff to perform administrative operations of the system that includes Managing Users, Roles and Privileges, application resources, system auditing and reports.</li>
+	<li class="gap-above-small"><strong>Super Administrator:</strong> who has the sole authority over the system setup and its resources. He would be responsible for the data uploaded/update, modification of data format, define/modify and managing privileges for all user groups, administrative user profile, login, IP, security etc.</li>
+</ul>
+<p>The overview of the user categorisation is given below:</p>
+<p class="img-with-caption"><img title="Functions of KSSDI geoportal" class="img-responsive" style="" src="<?=PUBLIC_URL?>images/stock/kssdi_03.jpg" alt="kssdi_03.jpg"/>FUNCTIONS OF KSSDI GEOPORTAL</p>
+<p>KSSDI Geo Portal provides an OGC framework for accessing spatial data across organizations or group of users in an efficient and flexible manner. This has the following components :</p>
+<ol>
+	<li class="gap-above-small"><strong>Map Viewer</strong> is an internet based interactive map viewing applications, which allow a user to view the spatial data. Map Viewer also facilitates map discovery, querying, analysing and update.</li>
+	<li class="gap-above-small"><strong>Map Catalogue</strong> is list of map services available as a map directory. It allows the user to browse the directory of spatial datasets that are available as map layers. It facilitates an authorized data provider to publish map data as service that can be accessed remotely.</li>
+	<li class="gap-above-small"><strong>Metadata</strong> is information about spatial data. This would enable a user ton view the descriptions of the metadata before actually accessing/working with the data. The authorised users would be able to Create, Update, Remove and Export Metadata is provided.</li>
+	<li class="gap-above-small"><strong>Product Catalogue:</strong> facilitate spatial datasets as maps to be listed as products and hosted for online sale and purchase with the payment details. Registered users can search for map products, select and download by making online transaction.</li>
+	<li class="gap-above-small"><strong>Service Request:</strong> allows users to post their requests via the portal to publish data as map services or make available as a product. The request can be made to the KSSDI Administrator or to a specific Line Department.</li>
+	<li class="gap-above-small"><strong>KSSDI Applications:</strong> KSSDI Applications are prepared based on the currently identified needs of the line departments.</li>
+</ol>
+<p>The applications are categorized based on the department name or a search keyword. These applications will help the Users in taking decision making process. A indicative list of application requirements are given below which would be available as part of KSSDI Geoportal for various users.</p>
+<div class="table-responsive"> 
+	<table class="table table-striped">
+		<tbody> 
+			<tr>
+				<th>Department</th>
+				<th>Application Requirement</th>
+				<th>Application Query</th>
+			</tr>
+			<tr>
+				<td>Department of Education (Akshaya Yojana Programme)</td>
+				<td>Opening of new Primary School</td>
+				<td>Distance of a school from a village doesn't exceed 1.5 kms</td>
+			</tr>
+			<tr>
+				<td>(District Primary Education Programme)</td>
+				<td>Opening of new Primary School</td>
+				<td>1. Population exceed 300<br />2. Village with Adult Education Centre</td>
+			</tr>
+			<tr>
+				<td>(Akshaya Yojana Programme)</td>
+				<td>Construction of new school rooms</td>
+				<td>Select Schools for which additional rooms were constructed Population is in excess of 600 Number of students in excess</td>
+			</tr>
+			<tr>
+				<td>(Akshaya Yojana Programme)</td>
+				<td>Repair to school rooms</td>
+				<td>Select Schools for which rooms were repaired</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Location of School</td>
+				<td>Select School in Private land<br /> Select School in Govt. Land<br />Select School in Adult Education Centre</td>
+			</tr>
+			<tr>
+				<td>Health Services (Malaria Eradication Programme)</td>
+				<td>1. Identification of High Risk Areas</td>
+				<td>Select Districts prone to Malaria high risk areas</td>
+			</tr>
+			<tr>
+				<td rowspan="21">KSCST</td>
+				<td>Villages with Primary health centre</td>
+				<td>Select Villages within a given Taluk  that has PHC</td>
+			</tr>
+			<tr>
+				<td>Constituency wise watershed 1000 ha each</td>
+				<td>Select Constituency within a district that has watershed area 1000ha</td>
+			</tr>
+			<tr>
+				<td>Taluk wise location of M.I tanks having fishing activities</td>
+				<td>Select Taluk with MI Tank that has fishing activities</td>
+			</tr>
+			<tr>
+				<td>Minor irrigation tank taluk wise</td>
+				<td>Select Taluk with Minor irrigation tank</td>
+			</tr>
+			<tr>
+				<td>Schools with implementation of Rain water harvesting method</td>
+				<td>Select Village with schools that has Rain water harvesting</td>
+			</tr>
+			<tr>
+				<td>Schools with drinking water and toilet facilities</td>
+				<td>Select Village with schools that has drinking water and toilet facilities</td>
+			</tr>
+			<tr>
+				<td>Village with fluoride distribution</td>
+				<td>Select fluoride distribution map at village level</td>
+			</tr>
+			<tr>
+				<td>Village with adult education</td>
+				<td>Select Villages with Adult Education facility available</td>
+			</tr>
+			<tr>
+				<td>Village with continuing education centre</td>
+				<td>Select Villages with Continuing Education Centres (CEC) facility available</td>
+			</tr>
+			<tr>
+				<td>Village with veterinary facility</td>
+				<td>Select villages with Veterinary facility available</td>
+			</tr>
+			<tr>
+				<td>Village with live stock distribution</td>
+				<td>Select Villages with liver stock distribution available</td>
+			</tr>
+			<tr>
+				<td>SC/ST percentage distribution taluk wise</td>
+				<td>Select Taluk wise SC/ST percentage Distribution</td>
+			</tr>
+			<tr>
+				<td>Village with population greater than 600</td>
+				<td>Select villages with population > 600</td>
+			</tr>
+			<tr>
+				<td>Village with number of borewells</td>
+				<td>Select villages that has borewells and the count</td>
+			</tr>
+			<tr>
+				<td>Village with Primary health centre</td>
+				<td>Select villages with PHC facility available</td>
+			</tr>
+			<tr>
+				<td>Village with Community Health</td>
+				<td>Select village with CH facility available</td>
+			</tr>
+			<tr>
+				<td>8 kms Buffer around the village locations with PHCs</td>
+				<td>Select villages with PHCs with 8 Kms Buffer polygon</td>
+			</tr>
+			<tr>
+				<td>Villages without PHCs</td>
+				<td>Select villages having PHCs facility</td>
+			</tr>
+			<tr>
+				<td>12 kms buffer around village locations with CHCs</td>
+				<td>Select villages having CHCs with 12 kms buffer polygon</td>
+			</tr>
+			<tr>
+				<td>Village location with population 3000 and with SHC</td>
+				<td>Select villages with population >= 3000 and SHC facility</td>
+			</tr>
+			<tr>
+				<td>Villages without Sub centres</td>
+				<td>Select Villages that do not have (<>) Sub centres</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h3>Karnataka Geoportal System Architecture</h3>
+<p>The diagram provides a schematic representation of the infrastructure and network requirements to host the Geo Portal and the clearing house and provide the system performance as stated in the requirements. The diagram also show required number of servers, and server types, and how these servers will communicate with existing infrastructure and partner systems.</p>
+<p><img class="img-border" src="<?=PUBLIC_URL?>images/stock/kssdi_04.jpg" alt="kssdi"></a></p>
+<p>IBM provides the HS21 blade servers for the 5 servers viz, web, security, backup, database and applications servers. The industry-leading flexibility, performance, and investment protection you've come to expect from the IBM servers has been extended even further with the introduction of a new generation of 2 processors, which run at clock speeds as high as 3.3 GHz and are available with a Level 2 cache as large as 6MB.</p>
+<p>The Oracle 11g Enterprise Edition along with the Spatial Option gives the industries best RDBMS solution. Oracle Database server with spatial option is an OGC compliant product for storing Spatial and metadata. The unique features of Oracle in storing, retrieval adds value to our solution to KSSDI. The Virtual private database and data encryption adds more to the existing security features.</p>
+<p>The Geo-portal solution as per the requirements of KSSDI / KSCST would have a total of 5 servers as shown in the architecture. The LDAP - active directory would be housed in the security server, along with the security module developed for the web portal. Security features will be compatible with LDAP (Light Directory Access Protocol) and Microsoft's Active Directory, and would enable the establishment of a single sign-on security and authentication scheme. The application server would be housing the web portal solution, OGC certified WMS, WFS, WRS web services. The portal would also be housing the data conversion software / utilities. The Geo-Portal is also expected to have an transaction module which keeps account of the various transactions. The transaction services is later planned to be connected to a payment gateway of any of the nationalized bank like State Bank of India for payment transactions.</p>
+<p>The KSSDI portal passed preliminary stage of development and was released to users during October, 2009 for portal functionality testing. The release allowed the testing of the portal to undergo usability testing with selected users who provided feedback to the project team. Identified malfunctions were rectified. The Council officially launched Karnataka GeoPortal during December, 2009 at the 9th annual event of National Spatial Data infrastructure by the Honourable Minister of State for Science &amp; technology, GOI, Sri. Prithviraj Chavan. The Council is initiating to set up state level committee to sensitize various departments/agencies of the government of Karnataka on the concept of SDI and the utility of Geo-portal and clearing house in order to secure their cooperation in the utilization/development of portal.</p>
+<p>The complete Karnataka Geo Portal is developed using the ERDAS Apollo Software, an OGC compliant with facilities to share the vector and raster datasets through WMS, WFS and WRS web services along with the solutions and products from IBM for server hardware, storage, backup and retrieval systems, CISCO for the Networking components and Oracle for RDBMS requirements, respectively. It is a centralized single window access mechanism for all spatial data acquired by various agencies of the state.</p>
+<p>The Karnataka Geoportal has been continuously being fine tuned for some of the issues like search feature enhancement, usability issues, application queries rectification and functionalities. The portal also has long list of pre canned queries for different type of users as well as the facility for user defined queries. Training of the project staff as well as district project personnel has been completed.</p>
+<p>Cataloguing of various data/metadata services available in Karnataka Geoportal has already been taken up and with increasing user awareness, the State will have to frame a policy/ guideline for dealing with user requests for getting access to feature or map data. An open approach at this stage with governmental stakeholders will facilitate better user awareness and promotion of the use of the standardised data sets/ services in governance-related activities. This in turn will help upgrade value of the data/ services for their better marketability amongst stakeholder agencies.</p>
+<p>Participation of state level departments/directorates has facilitated in arriving suitable modalities for the data/ metadata using the geospatial tool developed under the project. The KSSDI Steering Committee has also triggered the issue of data sharing as well as data updation process. Under this project a meeting of the stakeholders from the Government sector at State level was held to deliberate on issues related to:</p>
+<ol>
+	<li>Online data sharing / updation mechanism</li>
+	<li>Metadata/Catalogue of services of participating agencies</li>
+	<li>Data standardisation for interoperability</li>
+	<li>Data sharing policy</li>
+</ol>
+<h3>Karnataka Geoportal Services</h3>
+<p>Karnataka GeoPortal is envisaged to be a centralized single window access mechanism for all spatial data held and acquired by various agencies/line departments of the state. The modules in the Karnataka Geoportal are categorized into :</p>
+<ul>
+	<li>Map viewer - Web Map Service (WMS),</li>
+	<li>Product catalogue/metadata - Catalogue Service on Web (CS-W),</li>
+	<li>Services specific service/ feature data sets - Web Feature Service (WFS),</li>
+	<li>Simple Applications (Query based decision support)</li>
+	<li>Coverage services/images - Web Coverage Service (WCS)</li>
+	<li>Help/support</li>
+</ul>
+<p><strong>Karnataka Geoportal URL:</strong> <a href="http://www.karnatakageoportal.in" target="_blank">www.karnatakageoportal.in</a></p>
+<h3>User Need assessment</h3>
+<p>User acceptance testing (UAT) is the last phase of the portal/ software testing process. During UAT, actual portal was tested to make sure it can handle required tasks in real-world scenarios, according to specifications with the support of State and district NRDMS centre staff, Experts from IIT - Bombay and IISc. The portal was made available for a trial for the both the in-house testing team and other experts.</p>
+<p>Following are the steps involved in in-house UAT:</p>
+<ul>
+	<li class="gap-above-small"><strong>Planning:</strong> The UAT strategy was adopted by the advice of experts from IIT- Bombay.</li>
+	<li class="gap-above-small"><strong>Designing test cases:</strong> Test cases are designed to cover all the functional scenarios of the software in real-world usage. The access and discovery of data was an important bench marking for testing the portal. They were designed in a simple language and manner to make the test process easier for the testers.</li>
+	<li class="gap-above-small"><strong>Selection of testing team:</strong> The testing team comprised of real world end-users.</li>
+	<li class="gap-above-small"><strong>Executing test cases and documenting:</strong> Majority of the test cases were documented and tested randomly for bugs.</li>
+	<li class="gap-above-small"><strong>Bug fixing:</strong> Responding to the bugs found by the in-house testing team, the vendor made few adjustments to the code to make the portal relatively bug-free.</li>
+</ul>
+<h3>Proposed future activities</h3>
+<ol>
+	<li class="gap-above-small">Development of web based geospatial applications for Karnataka Watershed Development Department for monitoring and evaluation of IWMP projects and health sector.</li>
+	<li class="gap-above-small">Institutional mechanism for Karnataka Geoportal to facilitate spatial datasets from concerned Line Departments to the monitoring, evaluation and formulation of developmental programmes/ schemes in watershed and health sectors.</li>
+	<li class="gap-above-small">Data sharing by data generating agencies through Karnataka Geoportal</li>
+	<li class="gap-above-small">Development of multi-lingual search facility</li>
+	<li class="gap-above-small">Integration of Ortho-images on geospatial applications for visualization</li>
+	<li class="gap-above-small">Map comparison tool for assessing the quality of crowd-sourced data</li>
+	<li class="gap-above-small">Crowd sourcing of points of interest in Karnataka Geoportal</li>
+</ol>
