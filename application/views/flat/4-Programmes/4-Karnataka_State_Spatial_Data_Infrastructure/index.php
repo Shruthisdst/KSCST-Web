@@ -228,7 +228,7 @@
 <ul>
 	<li>Map viewer - Web Map Service (WMS),</li>
 	<li>Product catalogue/metadata - Catalogue Service on Web (CS-W),</li>
-	<li>Services specific service/ feature data sets - Web Feature Service (WFS),</li>
+	<li>Services specific service/feature data sets - Web Feature Service (WFS),</li>
 	<li>Simple Applications (Query based decision support)</li>
 	<li>Coverage services/images - Web Coverage Service (WCS)</li>
 	<li>Help/support</li>
@@ -254,3 +254,5 @@
 	<li class="gap-above-small">Map comparison tool for assessing the quality of crowd-sourced data</li>
 	<li class="gap-above-small">Crowd sourcing of points of interest in Karnataka Geoportal</li>
 </ol>
+<h3><a href="kssdi_screenshots" target="_blank">Screenshots of KSSDI Geoportal</a></h3>
+<h3><a href="KSSDI_Phase II_Project">Development of geospatial web applications on Karnataka Geoportal for G-governance (KSSDI Phase II Project)</a></h3>

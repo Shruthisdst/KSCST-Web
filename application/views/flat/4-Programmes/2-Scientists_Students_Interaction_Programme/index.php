@@ -25,9 +25,9 @@
 <p><strong>Several questions that were posted by the students in various programmes conducted have been gathered and is being published as a book in kannada, the local language, and will be distributed to various schools of karnataka.</strong></p>
 <h3>Recent Programmes</h3>
 <p>The Scientists Students Interaction Programme was organized by the Council involving Prof. C. N. R. Rao, FRS, National Research Professor, Jawaharlal Nehru Council for Advanced Scientific Research and the high school students in Dharwar on Friday, September 15, 2006. The venue of the programme was at Srujana Auditorium, Karnataka Science College Campus, Dharwad. The programme started at 10.30 AM. Prof. C. N. R. Rao delivered a lecture on <strong>"Science Learning"</strong> in Kannada. Later Prof. Indumati Rao of Jawaharlal Nehru Centre for Advanced Science and Research demonstrate CD-ROM developed by the centre on learning science on various subjects. Hon'ble Minister for Primary and Secondary Education Sri. Basavaraj Horatti, Incharge Vice Chancellor of Karnataka University, Dharwad Dr. Murigeppa and others were present during the function. Karnataka University, Dharwad and The Directorate of Science Education Research and Training supported this programme.</p>
-<p><img class="img-border" src="<?=PUBLIC_URL?>images/stock/cnr_rao_dharwad1.jpg" alt="cnr_rao_dharwad"></a></p>
-<p><img class="img-border" src="<?=PUBLIC_URL?>images/stock/cnr_rao_dharwad2.jpg" alt="cnr_rao_dharwad"></a></p>
-<p><img class="img-border" src="<?=PUBLIC_URL?>images/stock/cnr_rao_dharwad3.jpg" alt="cnr_rao_dharwad"></a></p>
+<p><img class="img-border" src="<?=PUBLIC_URL?>images/stock/cnr_rao_dharwad1.jpg" alt="cnr_rao_dharwad"></p>
+<p><img class="img-border" src="<?=PUBLIC_URL?>images/stock/cnr_rao_dharwad2.jpg" alt="cnr_rao_dharwad"></p>
+<p><img class="img-border" src="<?=PUBLIC_URL?>images/stock/cnr_rao_dharwad3.jpg" alt="cnr_rao_dharwad"></p>
 <h3>List of Scientists Students Interaction program conducted</h3>
 <div class="table-responsive"> 
 	<table class="table table-striped">
